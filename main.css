@@ -1,0 +1,46 @@
+body {
+  background-color: beige;
+}
+
+
+.P-cards {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 20px;
+}
+
+.cards {
+  padding: 20px;
+  margin: 50px;
+}
+
+img {
+  width: 300px;
+  object-fit: cover;
+  height: 300px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.list-group-item {
+  font-size: medium;
+  font: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.price {
+  font-size: large;
+  font: bolder;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.card-title {
+  font-size: x-large;
+
+}
+
+.card-body {
+  object-fit: cover;
+  background-color: white;
+
+}
